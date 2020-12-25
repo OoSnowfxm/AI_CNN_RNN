@@ -2,7 +2,7 @@ import xml.etree.ElementTree as ET
 from string import punctuation
 from nltk.corpus import stopwords
 
-tree = ET.parse('data/Laptops_trial_data.xml')
+tree = ET.parse('Laptops_Train_data.xml')
 root = tree.getroot()
 sentences = []
 
